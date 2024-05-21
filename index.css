@@ -1,0 +1,53 @@
+
+/* HOME/INDEX PAGE STYLING! */
+
+.fishBox {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.fish {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.TextFish {
+  position: absolute;
+  font-family: 'Trebuchet MS';
+  top: 55%;
+  left: 5%;
+  right: 55%;
+  font-size: 25px;
+}
+.p1 {
+  position: absolute;
+  font-family: 'Trebuchet MS';
+  font-size: 30px;
+}
+h4 {
+  color: lightgreen;
+  font-family: 'Trebuchet MS';
+}
+.ImgHome {
+  width: 100%;
+  height: auto; 
+  display: block; 
+  float: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .fishBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .TextFish {
+    position: static;
+    width: 100%;
+    padding: 10px;
+  }
+}
